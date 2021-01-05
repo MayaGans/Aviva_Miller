@@ -1432,7 +1432,7 @@ var app = (function () {
           DESCRIPTION:
             "Testimonal 1",
           IMAGE_URL: "images/user1.jpg",
-          URL: "https://www.healthgrades.com/physician/dr-mark-jaffe-yr62d",
+          URL: "",
           NAME: "Mike"
 
         },
@@ -1440,7 +1440,7 @@ var app = (function () {
           DESCRIPTION:
             "Testimonal 2",
           IMAGE_URL: "images/user2.jpg",
-          URL: "https://www.healthgrades.com/physician/dr-mark-jaffe-yr62d",
+          URL: "",
           NAME: "Wendy"
         }
       ]
