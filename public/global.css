@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slabdisplay=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+:root {
+  --gradient: linear-gradient(90deg, #1F2E4B 0%, #1F2E4B 100%);
+  --light: #CDCDCD;
+  --grey: #CDCDCD;
+}
+
+h1,h2 {
+  font-size: 3em !important;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', Helvetica !important;
+  scroll-behavior: smooth;
+  color: #1F2E4B;
+}
+
+h1,h2,h3,h4 {
+  font-family: 'Crimson Text' !important;
+  color: #1F2E4B;
+}
+
+.main-bgcolor {
+  background-image: var(--gradient);
+}
+.light-color {
+  color: var(--light) !important;
+}
+.grey-bgcolor {
+  background: var(--grey);
+}
+.company_brand {
+  font-size: x-large;
+}
+
+.section {
+  padding: 50px 0;
+}
+
+.section-body {
+  padding: 20px 0;
+}
+
