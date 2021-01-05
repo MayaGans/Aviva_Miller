@@ -52,6 +52,12 @@
     color: black;
   }
 
+  @media (max-width: 674px) {
+  .box {
+    width: 100%;
+  }
+}
+
   a {
     margin-top: 20px;
     text-decoration: none;
