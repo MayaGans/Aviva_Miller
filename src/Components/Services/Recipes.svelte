@@ -52,7 +52,11 @@
     color: black;
   }
 
+
   @media (max-width: 674px) {
+  .flex-container {
+    display: block;
+  }
   .box {
     width: 100%;
   }
