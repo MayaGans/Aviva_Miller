@@ -318,15 +318,15 @@ var app = (function () {
 
     function get_each_context(ctx, list, i) {
     	const child_ctx = ctx.slice();
-    	child_ctx[2] = list[i];
+    	child_ctx[1] = list[i];
     	return child_ctx;
     }
 
-    // (24:8) {#each navlists as list}
+    // (23:8) {#each navlists as list}
     function create_each_block(ctx) {
     	let li;
     	let a;
-    	let t0_value = /*list*/ ctx[2].label + "";
+    	let t0_value = /*list*/ ctx[1].label + "";
     	let t0;
     	let a_href_value;
     	let t1;
@@ -338,10 +338,10 @@ var app = (function () {
     			t0 = text(t0_value);
     			t1 = space();
     			attr_dev(a, "class", "nav-link light-color svelte-ab96dq");
-    			attr_dev(a, "href", a_href_value = /*list*/ ctx[2].url);
-    			add_location(a, file, 25, 12, 833);
+    			attr_dev(a, "href", a_href_value = /*list*/ ctx[1].url);
+    			add_location(a, file, 24, 12, 812);
     			attr_dev(li, "class", "nav-item svelte-ab96dq");
-    			add_location(li, file, 24, 10, 799);
+    			add_location(li, file, 23, 10, 778);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, li, anchor);
@@ -350,9 +350,9 @@ var app = (function () {
     			append_dev(li, t1);
     		},
     		p: function update(ctx, dirty) {
-    			if (dirty & /*navlists*/ 1 && t0_value !== (t0_value = /*list*/ ctx[2].label + "")) set_data_dev(t0, t0_value);
+    			if (dirty & /*navlists*/ 1 && t0_value !== (t0_value = /*list*/ ctx[1].label + "")) set_data_dev(t0, t0_value);
 
-    			if (dirty & /*navlists*/ 1 && a_href_value !== (a_href_value = /*list*/ ctx[2].url)) {
+    			if (dirty & /*navlists*/ 1 && a_href_value !== (a_href_value = /*list*/ ctx[1].url)) {
     				attr_dev(a, "href", a_href_value);
     			}
     		},
@@ -365,7 +365,7 @@ var app = (function () {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(24:8) {#each navlists as list}",
+    		source: "(23:8) {#each navlists as list}",
     		ctx
     	});
 
@@ -408,11 +408,11 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			add_location(strong, file, 10, 36, 347);
+    			add_location(strong, file, 9, 36, 326);
     			set_style(span0, "font-size", "25px");
-    			add_location(span0, file, 10, 6, 317);
+    			add_location(span0, file, 9, 6, 296);
     			attr_dev(span1, "class", "navbar-toggler-icon");
-    			add_location(span1, file, 19, 6, 609);
+    			add_location(span1, file, 18, 6, 588);
     			attr_dev(button, "class", "navbar-toggler");
     			attr_dev(button, "type", "button");
     			attr_dev(button, "data-toggle", "collapse");
@@ -420,17 +420,17 @@ var app = (function () {
     			attr_dev(button, "aria-controls", "navbarNav");
     			attr_dev(button, "aria-expanded", "false");
     			attr_dev(button, "aria-label", "Toggle navigation");
-    			add_location(button, file, 11, 4, 388);
+    			add_location(button, file, 10, 4, 367);
     			attr_dev(ul, "class", "navbar-nav ml-auto svelte-ab96dq");
-    			add_location(ul, file, 22, 6, 724);
+    			add_location(ul, file, 21, 6, 703);
     			attr_dev(div, "class", "collapse navbar-collapse");
     			attr_dev(div, "id", "navbarNav");
-    			add_location(div, file, 21, 4, 664);
+    			add_location(div, file, 20, 4, 643);
     			attr_dev(nav, "class", "navbar navbar-expand-md navbar-dark svelte-ab96dq");
-    			add_location(nav, file, 9, 2, 261);
+    			add_location(nav, file, 8, 2, 240);
     			attr_dev(section, "id", "nav-bar");
     			attr_dev(section, "class", "svelte-ab96dq");
-    			add_location(section, file, 8, 0, 236);
+    			add_location(section, file, 7, 0, 215);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -496,9 +496,8 @@ var app = (function () {
 
     function instance($$self, $$props, $$invalidate) {
     	let { navlists = [] } = $$props;
-    	let { header } = $$props;
     	console.log(navlists);
-    	const writable_props = ["navlists", "header"];
+    	const writable_props = ["navlists"];
 
     	Object.keys($$props).forEach(key => {
     		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console_1.warn(`<Navbar> was created with unknown prop '${key}'`);
@@ -506,25 +505,23 @@ var app = (function () {
 
     	$$self.$set = $$props => {
     		if ("navlists" in $$props) $$invalidate(0, navlists = $$props.navlists);
-    		if ("header" in $$props) $$invalidate(1, header = $$props.header);
     	};
 
     	$$self.$capture_state = () => {
-    		return { navlists, header };
+    		return { navlists };
     	};
 
     	$$self.$inject_state = $$props => {
     		if ("navlists" in $$props) $$invalidate(0, navlists = $$props.navlists);
-    		if ("header" in $$props) $$invalidate(1, header = $$props.header);
     	};
 
-    	return [navlists, header];
+    	return [navlists];
     }
 
     class Navbar extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance, create_fragment, safe_not_equal, { navlists: 0, header: 1 });
+    		init(this, options, instance, create_fragment, safe_not_equal, { navlists: 0 });
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
@@ -532,13 +529,6 @@ var app = (function () {
     			options,
     			id: create_fragment.name
     		});
-
-    		const { ctx } = this.$$;
-    		const props = options.props || ({});
-
-    		if (/*header*/ ctx[1] === undefined && !("header" in props)) {
-    			console_1.warn("<Navbar> was created without expected prop 'header'");
-    		}
     	}
 
     	get navlists() {
@@ -546,14 +536,6 @@ var app = (function () {
     	}
 
     	set navlists(value) {
-    		throw new Error("<Navbar>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
-    	}
-
-    	get header() {
-    		throw new Error("<Navbar>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
-    	}
-
-    	set header(value) {
     		throw new Error("<Navbar>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
     	}
     }
