@@ -1101,11 +1101,9 @@ var app = (function () {
     	let t0;
     	let t1;
     	let p1;
-    	let a;
     	let b;
     	let t2_value = /*list*/ ctx[3].NAME + "";
     	let t2;
-    	let a_href_value;
     	let t3;
 
     	const block = {
@@ -1115,16 +1113,11 @@ var app = (function () {
     			t0 = text(t0_value);
     			t1 = space();
     			p1 = element("p");
-    			a = element("a");
     			b = element("b");
     			t2 = text(t2_value);
     			t3 = space();
     			add_location(p0, file$4, 14, 10, 510);
-    			add_location(b, file$4, 16, 47, 618);
-    			attr_dev(a, "href", a_href_value = /*list*/ ctx[3].URL);
-    			attr_dev(a, "target", "_blank");
-    			attr_dev(a, "class", "svelte-yjy5gi");
-    			add_location(a, file$4, 16, 12, 583);
+    			add_location(b, file$4, 16, 12, 583);
     			attr_dev(p1, "class", "user-details svelte-yjy5gi");
     			add_location(p1, file$4, 15, 10, 546);
     			attr_dev(div, "class", "col-md-5 testimonial svelte-yjy5gi");
@@ -1136,8 +1129,7 @@ var app = (function () {
     			append_dev(p0, t0);
     			append_dev(div, t1);
     			append_dev(div, p1);
-    			append_dev(p1, a);
-    			append_dev(a, b);
+    			append_dev(p1, b);
     			append_dev(b, t2);
     			append_dev(div, t3);
     		},
@@ -1359,7 +1351,6 @@ var app = (function () {
     const HEADER = "Aviva Miller";
 
     const NAVBAR_DATA = [
-      { id: 1, url: "/", label: "Home" },
       { id: 4, url: "#about-us", label: "About" },
       { id: 3, url: "#services", label: "Services" },
       { id: 5, url: "#testimonials", label: "Testimonials" },
@@ -1367,8 +1358,7 @@ var app = (function () {
 
     const BANNER_DATA = {
       HEADING: "Go digital with nixalar",
-      DECRIPTION:
-        "Board Certified Rheumatologist with local hospital privileges. Practicing in South Florida for over 20 years."
+      DECRIPTION: "Board Certified Rheumatologist with local hospital privileges. Practicing in South Florida for over 20 years."
     };
 
     const SERVICE_DATA = {

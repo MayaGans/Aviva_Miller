@@ -1,7 +1,6 @@
 const HEADER = "Aviva Miller";
 
 const NAVBAR_DATA = [
-  { id: 1, url: "/", label: "Home" },
   { id: 4, url: "#about-us", label: "About" },
   { id: 3, url: "#services", label: "Services" },
   { id: 5, url: "#testimonials", label: "Testimonials" },
@@ -9,8 +8,7 @@ const NAVBAR_DATA = [
 
 const BANNER_DATA = {
   HEADING: "Go digital with nixalar",
-  DECRIPTION:
-    "Board Certified Rheumatologist with local hospital privileges. Practicing in South Florida for over 20 years."
+  DECRIPTION: "Board Certified Rheumatologist with local hospital privileges. Practicing in South Florida for over 20 years."
 };
 
 const SERVICE_DATA = {

@@ -14,7 +14,7 @@
         <div class="col-md-5 testimonial">
           <p>{list.DESCRIPTION}</p>
           <p class="user-details">
-            <a href={list.URL} target="_blank"><b>{list.NAME}</b></a>
+            <b>{list.NAME}</b>
           </p>
         </div>
       {/each}
