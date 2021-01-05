@@ -35,7 +35,7 @@ const SERVICE_DATA = {
 };
 
 const RECIPE_DATA = {
-  HEADING: "Non-Profit Executive, Consultant & Fundraiser",
+  HEADING: "Non-Profit Consulting",
   ALL_SERVICES: "All Services",
   SERVICE_LIST: [
     {
