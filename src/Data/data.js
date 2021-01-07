@@ -40,13 +40,17 @@ const RECIPE_DATA = {
   ALL_SERVICES: "All Services",
   SERVICE_LIST: [
     {
-      LABEL: "Tree of Life Synagogue"
+      LABEL: "Tree of Life Synagogue",
+      SRC: "https://www.treeoflifepgh.org/"
     },
     {
-      LABEL: "Yad Vashem"
+      LABEL: "Yad Vashem",
+      SRC: "https://www.yadvashem.org/"
     },
     {
-      LABEL: "Bnai Zion Medical Center"
+      LABEL: "Bnai Zion Medical Center",
+      SRC: "https://www.b-zion.org.il/default_e.aspx"
+
     }
   ]
 };

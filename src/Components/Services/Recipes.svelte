@@ -1,4 +1,6 @@
 <script>
+import { listen } from "svelte/internal";
+
   export let recipeData = {};
   const { HEADING, ALL_SERVICES, SERVICE_LIST } = recipeData;
 </script>
@@ -11,9 +13,11 @@
     <h2>{HEADING}</h2>
       <div class="flex-container">
       {#each SERVICE_LIST as list}
-        <div class="box">
+        <a class="box" href={list.SRC} target="_blank">
+        <div>
           {list.LABEL}
         </div>
+        </a>
       {/each}
     </div>
     </div>
@@ -62,17 +66,12 @@
   }
 }
 
-  a {
-    margin-top: 20px;
-    text-decoration: none;
-    color: black;
-    background-color: #00d4ff;
-    padding: 10px;
-  }
+a:hover {
+  text-decoration: none;
+  color: white;
 
-  a:hover {
-    color: black;
-    background-color: white;
-    text-decoration: none;
-  }
+}
+
+a:hover { transform: scale(1.1); }
+
 </style>
