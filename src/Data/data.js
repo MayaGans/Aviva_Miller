@@ -4,6 +4,7 @@ const NAVBAR_DATA = [
   { id: 4, url: "#about-us", label: "About" },
   { id: 3, url: "#services", label: "Services" },
   { id: 5, url: "#testimonials", label: "Testimonials" },
+  { id: 5, url: "#footer", label: "Contact" },
 ];
 
 const BANNER_DATA = {

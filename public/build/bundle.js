@@ -337,10 +337,10 @@ var app = (function () {
     			a = element("a");
     			t0 = text(t0_value);
     			t1 = space();
-    			attr_dev(a, "class", "nav-link light-color svelte-ab96dq");
+    			attr_dev(a, "class", "nav-link light-color svelte-jrc4xe");
     			attr_dev(a, "href", a_href_value = /*list*/ ctx[1].url);
     			add_location(a, file, 24, 12, 812);
-    			attr_dev(li, "class", "nav-item svelte-ab96dq");
+    			attr_dev(li, "class", "nav-item svelte-jrc4xe");
     			add_location(li, file, 23, 10, 778);
     		},
     		m: function mount(target, anchor) {
@@ -421,15 +421,15 @@ var app = (function () {
     			attr_dev(button, "aria-expanded", "false");
     			attr_dev(button, "aria-label", "Toggle navigation");
     			add_location(button, file, 10, 4, 367);
-    			attr_dev(ul, "class", "navbar-nav ml-auto svelte-ab96dq");
+    			attr_dev(ul, "class", "navbar-nav ml-auto svelte-jrc4xe");
     			add_location(ul, file, 21, 6, 703);
     			attr_dev(div, "class", "collapse navbar-collapse");
     			attr_dev(div, "id", "navbarNav");
     			add_location(div, file, 20, 4, 643);
-    			attr_dev(nav, "class", "navbar navbar-expand-md navbar-dark svelte-ab96dq");
+    			attr_dev(nav, "class", "navbar navbar-expand-md navbar-dark svelte-jrc4xe");
     			add_location(nav, file, 8, 2, 240);
     			attr_dev(section, "id", "nav-bar");
-    			attr_dev(section, "class", "svelte-ab96dq");
+    			attr_dev(section, "class", "svelte-jrc4xe");
     			add_location(section, file, 7, 0, 215);
     		},
     		l: function claim(nodes) {
@@ -568,12 +568,12 @@ var app = (function () {
     			t = space();
     			if (img.src !== (img_src_value = /*list*/ ctx[4].URL)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", img_alt_value = /*list*/ ctx[4].LABEL);
-    			attr_dev(img, "class", "service-img svelte-1gbh4se");
+    			attr_dev(img, "class", "service-img svelte-1e3dy8h");
     			add_location(img, file$1, 14, 45, 538);
     			attr_dev(a, "href", a_href_value = /*list*/ ctx[4].SRC);
     			attr_dev(a, "target", "_blank");
     			add_location(a, file$1, 14, 10, 503);
-    			attr_dev(div, "class", "col-sm-3 service col-centered svelte-1gbh4se");
+    			attr_dev(div, "class", "col-sm-3 service col-centered svelte-1e3dy8h");
     			add_location(div, file$1, 13, 8, 449);
     		},
     		m: function mount(target, anchor) {
@@ -625,13 +625,14 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
+    			attr_dev(h2, "class", "svelte-1e3dy8h");
     			add_location(h2, file$1, 10, 4, 352);
     			attr_dev(div0, "class", "row section-body");
     			add_location(div0, file$1, 11, 4, 375);
     			attr_dev(div1, "class", "container text-center");
     			add_location(div1, file$1, 9, 2, 312);
     			attr_dev(section, "id", "services");
-    			attr_dev(section, "class", "section grey-bgcolor svelte-1gbh4se");
+    			attr_dev(section, "class", "section grey-bgcolor svelte-1e3dy8h");
     			add_location(section, file$1, 8, 0, 257);
     		},
     		l: function claim(nodes) {
@@ -759,7 +760,7 @@ var app = (function () {
     			div = element("div");
     			t0 = text(t0_value);
     			t1 = space();
-    			attr_dev(div, "class", "box svelte-8sb4b1");
+    			attr_dev(div, "class", "box svelte-mpragj");
     			add_location(div, file$2, 13, 8, 446);
     		},
     		m: function mount(target, anchor) {
@@ -811,12 +812,12 @@ var app = (function () {
     			}
 
     			add_location(h2, file$2, 10, 4, 349);
-    			attr_dev(div0, "class", "flex-container svelte-8sb4b1");
+    			attr_dev(div0, "class", "flex-container svelte-mpragj");
     			add_location(div0, file$2, 11, 6, 374);
     			attr_dev(div1, "class", "container text-center");
     			add_location(div1, file$2, 9, 2, 309);
     			attr_dev(section, "id", "recipes");
-    			attr_dev(section, "class", "section grey-bgcolor svelte-8sb4b1");
+    			attr_dev(section, "class", "section grey-bgcolor svelte-mpragj");
     			add_location(section, file$2, 8, 0, 255);
     		},
     		l: function claim(nodes) {
@@ -1118,9 +1119,9 @@ var app = (function () {
     			t3 = space();
     			add_location(p0, file$4, 14, 10, 510);
     			add_location(b, file$4, 16, 12, 583);
-    			attr_dev(p1, "class", "user-details svelte-yjy5gi");
+    			attr_dev(p1, "class", "user-details svelte-d1bqh");
     			add_location(p1, file$4, 15, 10, 546);
-    			attr_dev(div, "class", "col-md-5 testimonial svelte-yjy5gi");
+    			attr_dev(div, "class", "col-md-5 testimonial svelte-d1bqh");
     			add_location(div, file$4, 13, 8, 465);
     		},
     		m: function mount(target, anchor) {
@@ -1176,14 +1177,14 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(h2, "class", "title text-center");
+    			attr_dev(h2, "class", "title text-center svelte-d1bqh");
     			add_location(h2, file$4, 10, 4, 329);
     			attr_dev(div0, "class", "row offset-1 section-body");
     			add_location(div0, file$4, 11, 4, 378);
     			attr_dev(div1, "class", "container");
     			add_location(div1, file$4, 9, 2, 301);
     			attr_dev(section, "id", "testimonials");
-    			attr_dev(section, "class", "section svelte-yjy5gi");
+    			attr_dev(section, "class", "section svelte-d1bqh");
     			add_location(section, file$4, 8, 0, 255);
     		},
     		l: function claim(nodes) {
@@ -1302,9 +1303,9 @@ var app = (function () {
     			section = element("section");
     			div = element("div");
     			div.textContent = "Aviva Miller, Esq. ● avivamf@gmail.com ● 516.635.2100";
-    			attr_dev(div, "class", "container svelte-b5wec");
+    			attr_dev(div, "class", "container svelte-29on80");
     			add_location(div, file$5, 7, 2, 204);
-    			attr_dev(section, "class", "footerbg svelte-b5wec");
+    			attr_dev(section, "class", "footerbg svelte-29on80");
     			attr_dev(section, "id", "footer");
     			add_location(section, file$5, 6, 0, 163);
     		},
@@ -1354,6 +1355,7 @@ var app = (function () {
       { id: 4, url: "#about-us", label: "About" },
       { id: 3, url: "#services", label: "Services" },
       { id: 5, url: "#testimonials", label: "Testimonials" },
+      { id: 5, url: "#footer", label: "Contact" },
     ];
 
     const BANNER_DATA = {

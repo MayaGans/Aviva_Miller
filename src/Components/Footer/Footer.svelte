@@ -14,20 +14,19 @@
 <!------------------------------------------->
 <style>
 
+#footer {
+    background-image: linear-gradient(to right, #3ca272, #009e8c, #0098a3, #0090b2, #0085b8, #007bb0, #0071a7, #00679e, #005d8b, #065378, #0d4966, #133f55);
+  }
+
   .footer-title {
     font-weight: bold;
     text-transform: uppercase;
-  }
-
-  .footerbg {
-    background-color: #daf4e6;
   }
 
   .container {
     padding: 50px 0px 10px 0px;
     height: 100px;
     text-align:center;
-    background-color: #daf4e6 !important;
   }
 
   .left {

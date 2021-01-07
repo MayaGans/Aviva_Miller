@@ -37,7 +37,7 @@
     position: sticky;
     top: 0;
     z-index: 10;
-    background: #daf4e6 !important;  
+    background-image: linear-gradient(to right, #3ca272, #009e8c, #0098a3, #0090b2, #0085b8, #007bb0, #0071a7, #00679e, #005d8b, #065378, #0d4966, #133f55);
     min-height: 100px !important;
     font-size: 20px;
   }

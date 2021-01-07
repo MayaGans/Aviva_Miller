@@ -27,16 +27,20 @@
 <style>
 
   .section {
-    background-color: #fffff7;
+    background-color: #191919;
     font-size: 12px;
   }
 
   .testimonial {
-    border-left: 4px solid #daf4e6;
+    border-left: 4px solid #0189B6;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: #fffff7;
-    color: #1F2E4B;
+    background-color: #191919;
+    color: #D0D0D0;
+  }
+
+  h2 {
+    color: #D0D0D0;
   }
 
   a:hover {

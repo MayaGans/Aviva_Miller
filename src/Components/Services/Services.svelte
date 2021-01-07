@@ -23,9 +23,13 @@
 <!------------------------------------------->
 <style>
   .section {
-    background-color:  #daf4e6 !important;
+    background-color: #191919 !important;
     color:  #D0D0D0;
     font-weight: 100;
+  }
+
+  h2 {
+    color: #D0D0D0;
   }
 
   .col-centered{

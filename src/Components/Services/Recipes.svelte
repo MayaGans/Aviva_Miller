@@ -42,14 +42,14 @@
 }
 
   .box {
-    border: 3px solid white;
+    border: 3px solid gray;
     border-radius: 5px;
     padding: 50px;
     margin: 5px;
-    background-color: #daf4e6;
+    background-color: #191919;
     filter: drop-shadow(0 0 0.2rem #D0D0D0);
     width: 30%;
-    color: black;
+    color: #D0D0D0;
   }
 
 
