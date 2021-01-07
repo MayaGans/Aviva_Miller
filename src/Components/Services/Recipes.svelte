@@ -59,10 +59,14 @@ import { listen } from "svelte/internal";
 
   @media (max-width: 674px) {
   .flex-container {
-    display: block;
+    flex-flow: row wrap
   }
   .box {
     width: 100%;
+  }
+
+  a:hover { 
+    transform: scale(0.5)
   }
 }
 

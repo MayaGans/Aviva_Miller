@@ -763,7 +763,7 @@ var app = (function () {
     			t0 = text(t0_value);
     			t1 = space();
     			add_location(div, file$2, 16, 8, 545);
-    			attr_dev(a, "class", "box svelte-121xidp");
+    			attr_dev(a, "class", "box svelte-rzqttb");
     			attr_dev(a, "href", a_href_value = /*list*/ ctx[4].SRC);
     			attr_dev(a, "target", "_blank");
     			add_location(a, file$2, 15, 8, 489);
@@ -818,12 +818,12 @@ var app = (function () {
     			}
 
     			add_location(h2, file$2, 12, 4, 392);
-    			attr_dev(div0, "class", "flex-container svelte-121xidp");
+    			attr_dev(div0, "class", "flex-container svelte-rzqttb");
     			add_location(div0, file$2, 13, 6, 417);
     			attr_dev(div1, "class", "container text-center");
     			add_location(div1, file$2, 11, 2, 352);
     			attr_dev(section, "id", "recipes");
-    			attr_dev(section, "class", "section grey-bgcolor svelte-121xidp");
+    			attr_dev(section, "class", "section grey-bgcolor svelte-rzqttb");
     			add_location(section, file$2, 10, 0, 298);
     		},
     		l: function claim(nodes) {
