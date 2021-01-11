@@ -9,12 +9,15 @@
 <section id="testimonials" class="section">
   <div class="container">
     <h2 class="title text-center">{HEADING}</h2>
-    <div class="row offset-1 section-body">
+    <div class="row section-body">
       {#each TESTIMONIAL_LIST as list}
-        <div class="col-md-5 testimonial">
+        <div class="testimonial">
           <p>{list.DESCRIPTION}</p>
+          <br>
           <p class="user-details">
-            <b>{list.NAME}</b>
+            <b class="bigger">{list.NAME}</b>
+            <br>
+            {list.TITLE}
           </p>
         </div>
       {/each}
@@ -31,12 +34,20 @@
     font-size: 12px;
   }
 
+  .bigger {
+    font-size: 15px;
+    color: #0189B6;
+  }
+
   .testimonial {
     border-left: 4px solid #0189B6;
     margin-top: 10px;
     margin-bottom: 10px;
     background-color: #191919;
     color: #D0D0D0;
+    margin: auto;
+    padding-left: 20px;
+    width: 60%;
   }
 
   h2 {

@@ -41,15 +41,18 @@ const RECIPE_DATA = {
   SERVICE_LIST: [
     {
       LABEL: "Tree of Life Synagogue",
-      SRC: "https://www.treeoflifepgh.org/"
+      SRC: "https://www.treeoflifepgh.org/",
+      IMG: "images/tols.png"
     },
     {
-      LABEL: "Yad Vashem",
-      SRC: "https://www.yadvashem.org/"
+      LABEL: "American Society for Yad Vashem",
+      SRC: "https://www.yadvashem.org/",
+      VIDEO: ["images/Video1.mov", "images/Video2.mov"]
     },
     {
       LABEL: "Bnai Zion Medical Center",
-      SRC: "https://www.b-zion.org.il/default_e.aspx"
+      SRC: "https://www.b-zion.org.il/default_e.aspx",
+      IMG: "images/bzmc.png"
 
     }
   ]
@@ -75,18 +78,12 @@ const TESTIMONIAL_DATA = {
   TESTIMONIAL_LIST: [
     {
       DESCRIPTION:
-        "Testimonal 1",
+        "You'll find in Aviva one of the most fearless door-openers and connectors. We met when we both worked on the Fundraising Team at The Jewish Agency for Israel. Aviva is based in NYC and appears to know or have a connection to everyone significant in NY and beyond. The same goes for the entertainment industry where she is deeply connected. She is an innovative event planner and thinks big. Her energy is contagious. She was always generous in sharing her contacts with me and believes in win-win partnerships.",
       IMAGE_URL: "images/user1.jpg",
       URL: "",
-      NAME: "Mike"
+      NAME: "Michael Lawrence",
+      TITLE: "Chief Development Officer of The Jewish Agency For Israel"
 
-    },
-    {
-      DESCRIPTION:
-        "Testimonal 2",
-      IMAGE_URL: "images/user2.jpg",
-      URL: "",
-      NAME: "Wendy"
     }
   ]
 };
