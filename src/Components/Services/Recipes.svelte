@@ -15,7 +15,7 @@ import { listen } from "svelte/internal";
       {#each SERVICE_LIST as list}
       <div class="card">
         <div class="card-header">
-          {list.LABEL}
+          <span>{list.LABEL}</span>
         </div>
         <div class="card-body">
           {#if list.VIDEO }
@@ -69,6 +69,13 @@ import { listen } from "svelte/internal";
     background-color: #0189B6;
     min-height: 80px;
     color: white;
+    font-size: 20px;
+    display: inline-block;
+  }
+
+  span {
+    display: inline-block;
+    vertical-align: middle;
   }
 
   .col-centered{

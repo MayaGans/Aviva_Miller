@@ -762,8 +762,8 @@ var app = (function () {
     		c: function create() {
     			img = element("img");
     			if (img.src !== (img_src_value = /*list*/ ctx[4].IMG)) attr_dev(img, "src", img_src_value);
-    			attr_dev(img, "class", "svelte-1a7wuog");
-    			add_location(img, file$2, 26, 12, 852);
+    			attr_dev(img, "class", "svelte-1jg7ywo");
+    			add_location(img, file$2, 26, 12, 865);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -804,7 +804,7 @@ var app = (function () {
 
     			t = space();
     			br = element("br");
-    			add_location(br, file$2, 24, 10, 817);
+    			add_location(br, file$2, 24, 10, 830);
     		},
     		m: function mount(target, anchor) {
     			for (let i = 0; i < each_blocks.length; i += 1) {
@@ -864,12 +864,12 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			video = element("video");
-    			attr_dev(video, "class", "videoInsert svelte-1a7wuog");
+    			attr_dev(video, "class", "videoInsert svelte-1jg7ywo");
     			video.controls = "controls";
     			attr_dev(video, "name", "Video Name");
     			if (video.src !== (video_src_value = /*video*/ ctx[7])) attr_dev(video, "src", video_src_value);
     			attr_dev(video, "type", "video/mp4");
-    			add_location(video, file$2, 22, 10, 686);
+    			add_location(video, file$2, 22, 10, 699);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, video, anchor);
@@ -895,6 +895,7 @@ var app = (function () {
     function create_each_block$2(ctx) {
     	let div2;
     	let div0;
+    	let span;
     	let t0_value = /*list*/ ctx[4].LABEL + "";
     	let t0;
     	let t1;
@@ -913,22 +914,26 @@ var app = (function () {
     		c: function create() {
     			div2 = element("div");
     			div0 = element("div");
+    			span = element("span");
     			t0 = text(t0_value);
     			t1 = space();
     			div1 = element("div");
     			if_block.c();
     			t2 = space();
-    			attr_dev(div0, "class", "card-header svelte-1a7wuog");
+    			attr_dev(span, "class", "svelte-1jg7ywo");
+    			add_location(span, file$2, 17, 10, 550);
+    			attr_dev(div0, "class", "card-header svelte-1jg7ywo");
     			add_location(div0, file$2, 16, 8, 514);
     			attr_dev(div1, "class", "card-body");
-    			add_location(div1, file$2, 19, 8, 586);
-    			attr_dev(div2, "class", "card svelte-1a7wuog");
+    			add_location(div1, file$2, 19, 8, 599);
+    			attr_dev(div2, "class", "card svelte-1jg7ywo");
     			add_location(div2, file$2, 15, 6, 487);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div2, anchor);
     			append_dev(div2, div0);
-    			append_dev(div0, t0);
+    			append_dev(div0, span);
+    			append_dev(span, t0);
     			append_dev(div2, t1);
     			append_dev(div2, div1);
     			if_block.m(div1, null);
@@ -981,12 +986,12 @@ var app = (function () {
     			}
 
     			add_location(h2, file$2, 12, 4, 392);
-    			attr_dev(div0, "class", "flex-container svelte-1a7wuog");
+    			attr_dev(div0, "class", "flex-container svelte-1jg7ywo");
     			add_location(div0, file$2, 13, 6, 417);
     			attr_dev(div1, "class", "container text-center");
     			add_location(div1, file$2, 11, 2, 352);
     			attr_dev(section, "id", "recipes");
-    			attr_dev(section, "class", "section grey-bgcolor svelte-1a7wuog");
+    			attr_dev(section, "class", "section grey-bgcolor svelte-1jg7ywo");
     			add_location(section, file$2, 10, 0, 298);
     		},
     		l: function claim(nodes) {
