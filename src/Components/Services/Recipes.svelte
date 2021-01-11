@@ -43,10 +43,8 @@ import { listen } from "svelte/internal";
     font-weight: 100;
   }
 
-  .bottom {
-    position: absolute;
-    bottom: 0;
-    margin: auto;
+  img:hover + .mybtn {
+  display: inline-block;
   }
 
   img {
@@ -62,11 +60,11 @@ import { listen } from "svelte/internal";
   .card {
     margin: 5px;
     width: 30%;
-    border: 1px solid #0189B6;
+    border: 1px solid #35A178;
   }
 
   .card-header {
-    background-color: #0189B6;
+    background-color: #35A178;
     min-height: 80px;
     color: white;
     font-size: 20px;

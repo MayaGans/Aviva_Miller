@@ -36,11 +36,11 @@
 
   .bigger {
     font-size: 15px;
-    color: #0189B6;
+    color: #35A178;
   }
 
   .testimonial {
-    border-left: 4px solid #0189B6;
+    border-left: 4px solid #35A178;
     margin-top: 10px;
     margin-bottom: 10px;
     background-color: #191919;
