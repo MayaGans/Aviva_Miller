@@ -9,7 +9,6 @@ const NAVBAR_DATA = [
 
 const BANNER_DATA = {
   HEADING: "Go digital with nixalar",
-  DECRIPTION: "Board Certified Rheumatologist with local hospital privileges. Practicing in South Florida for over 20 years."
 };
 
 const SERVICE_DATA = {
@@ -61,18 +60,9 @@ const RECIPE_DATA = {
 const ABOUT_DATA = {
   HEADING: "Aviva Miller",
   TITLE: "Why we're different",
-  IMAGE_URL: "images/avivamiller.jpg",
-  WHY_CHOOSE_US_LIST: [
-    "We provides Cost-Effective Digital Marketing than Others.",
-    "High customer statisfaction and experience.",
-    "Marketing efficiency and quick time to value.",
-    "Clear & transparent fee structure.",
-    "We provides Marketing automation which is an integral platform that ties all of your digital marketing together.",
-    "A strong desire to establish long lasting business partnerships.",
-    "Provide digital marketing to mobile consumer.",
-    "We provides wide range to services in reasonable prices"
-  ]
+  IMAGE_URL: "images/avivamiller.jpg"
 };
+
 const TESTIMONIAL_DATA = {
   HEADING: "Testimonials",
   TESTIMONIAL_LIST: [

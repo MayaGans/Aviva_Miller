@@ -24,9 +24,10 @@ import { listen } from "svelte/internal";
           {/each}
           <br>
           {:else}
-            <img src={list.IMG}>
+            <img src={list.IMG} />
           {/if}
         </div>
+
       </div>
       {/each}
     </div>
@@ -60,11 +61,11 @@ import { listen } from "svelte/internal";
   .card {
     margin: 5px;
     width: 30%;
-    border: 1px solid #35A178;
+    border: 1px solid #0189B6;
   }
 
   .card-header {
-    background-color: #35A178;
+    background-color: #0189B6;
     min-height: 80px;
     color: white;
     font-size: 20px;

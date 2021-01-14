@@ -762,7 +762,7 @@ var app = (function () {
     		c: function create() {
     			img = element("img");
     			if (img.src !== (img_src_value = /*list*/ ctx[4].IMG)) attr_dev(img, "src", img_src_value);
-    			attr_dev(img, "class", "svelte-yayos6");
+    			attr_dev(img, "class", "svelte-1panb9o");
     			add_location(img, file$2, 26, 12, 865);
     		},
     		m: function mount(target, anchor) {
@@ -864,7 +864,7 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			video = element("video");
-    			attr_dev(video, "class", "videoInsert svelte-yayos6");
+    			attr_dev(video, "class", "videoInsert svelte-1panb9o");
     			video.controls = "controls";
     			attr_dev(video, "name", "Video Name");
     			if (video.src !== (video_src_value = /*video*/ ctx[7])) attr_dev(video, "src", video_src_value);
@@ -920,13 +920,13 @@ var app = (function () {
     			div1 = element("div");
     			if_block.c();
     			t2 = space();
-    			attr_dev(span, "class", "svelte-yayos6");
+    			attr_dev(span, "class", "svelte-1panb9o");
     			add_location(span, file$2, 17, 10, 550);
-    			attr_dev(div0, "class", "card-header svelte-yayos6");
+    			attr_dev(div0, "class", "card-header svelte-1panb9o");
     			add_location(div0, file$2, 16, 8, 514);
     			attr_dev(div1, "class", "card-body");
     			add_location(div1, file$2, 19, 8, 599);
-    			attr_dev(div2, "class", "card svelte-yayos6");
+    			attr_dev(div2, "class", "card svelte-1panb9o");
     			add_location(div2, file$2, 15, 6, 487);
     		},
     		m: function mount(target, anchor) {
@@ -986,12 +986,12 @@ var app = (function () {
     			}
 
     			add_location(h2, file$2, 12, 4, 392);
-    			attr_dev(div0, "class", "flex-container svelte-yayos6");
+    			attr_dev(div0, "class", "flex-container svelte-1panb9o");
     			add_location(div0, file$2, 13, 6, 417);
     			attr_dev(div1, "class", "container text-center");
     			add_location(div1, file$2, 11, 2, 352);
     			attr_dev(section, "id", "recipes");
-    			attr_dev(section, "class", "section grey-bgcolor svelte-yayos6");
+    			attr_dev(section, "class", "section grey-bgcolor svelte-1panb9o");
     			add_location(section, file$2, 10, 0, 298);
     		},
     		l: function claim(nodes) {
@@ -1120,7 +1120,15 @@ var app = (function () {
     	let t6;
     	let br2;
     	let t7;
-    	let p;
+    	let br3;
+    	let br4;
+    	let t8;
+    	let br5;
+    	let br6;
+    	let t9;
+    	let br7;
+    	let br8;
+    	let t10;
 
     	const block = {
     		c: function create() {
@@ -1142,32 +1150,45 @@ var app = (function () {
     			br1 = element("br");
     			t6 = space();
     			br2 = element("br");
-    			t7 = space();
-    			p = element("p");
-    			p.textContent = "Under this I will explain and fill in with parts of my bio";
+    			t7 = text("\n          Aviva Miller is an entertainment attorney with over 25 years of experience in film,\ntelevision, theatre, and live event production. She is currently utilizing her creative talent\nin the development of several TV and Film projects in addition to consulting and\nfundraising for non-profit organizations. In recent years, Aviva has worked as a top-level\nexecutive building the brands of several new and iconic entertainment-related non-profit\ninstitutions including Creative Community for Peace, Jewish Agency For Israel, National\nYiddish Theatre Folksbiene and the Gold Coast International Film Festival.  \n\nPreviously, Ms. Miller was Of Counsel to the law firm of Daniel, Siegel and Bimbler,\nLLP, which concentrated its practice in all aspects of entertainment law.  Ms. Miller\nacted as a legal advisor to filmmakers and film productions, television\nproducers, theatrical producers and Broadway productions, recording artists,\nwriters, concert promoters.  \n");
+    			br3 = element("br");
+    			br4 = element("br");
+    			t8 = text("\nPrior to her tenure at Daniel, Siegel and Bimbler, Ms. Miller headed creative\ndevelopment for Moonglow Entertainment and served as Executive in Charge of\nProduction for two independently produced television series that aired on major\nnetworks. \n");
+    			br5 = element("br");
+    			br6 = element("br");
+    			t9 = text("\nAt Radio City Music Hall Productions, Aviva was Senior Attorney of Business Affairs,\nwhere she joined the production team to advise, negotiate and draft agreements for\nmajor theatricals, including The Radio City Music Hall Christmas Spectacular, The\nRockettes,\nConcert Series and other Special Events including the MTV Video Music Awards, The\nGrammy Awards, Comic Relief, two Super Bowl Half-Time Shows and the World Cup\nSoccer Closing Ceremony.\n");
+    			br7 = element("br");
+    			br8 = element("br");
+    			t10 = text("\nMs. Miller began her legal career on Wall Street as an Associate in the Structured\nFinance Group of Cadwalader, Wickersham & Taft.  She attended Cardozo School of\nLaw, is admitted to practice in New York, and is a member of the Bar of the Supreme\nCourt of the United States.  Ms. Miller has served on the boards of several non-\nprofits and has been honored for her charitable work. Aviva speaks fluent Hebrew and\nlived in Israel for 3+ years.");
     			if (img.src !== (img_src_value = /*IMAGE_URL*/ ctx[0])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "");
-    			attr_dev(img, "class", "img-fluid svelte-9c9d3t");
-    			add_location(img, file$3, 11, 8, 440);
-    			add_location(br0, file$3, 12, 8, 497);
-    			attr_dev(h2, "class", "svelte-9c9d3t");
-    			add_location(h2, file$3, 13, 8, 510);
-    			attr_dev(h4, "class", "svelte-9c9d3t");
-    			add_location(h4, file$3, 14, 8, 540);
-    			attr_dev(div0, "class", "col-md-6");
+    			attr_dev(img, "class", "img-fluid svelte-pwcej2");
+    			add_location(img, file$3, 12, 8, 435);
+    			add_location(br0, file$3, 13, 8, 492);
+    			attr_dev(h2, "class", "svelte-pwcej2");
+    			add_location(h2, file$3, 14, 8, 505);
+    			attr_dev(h4, "class", "svelte-pwcej2");
+    			add_location(h4, file$3, 15, 8, 535);
     			set_style(div0, "text-align", "center");
-    			add_location(div0, file$3, 10, 6, 382);
-    			add_location(br1, file$3, 17, 8, 634);
-    			add_location(br2, file$3, 18, 8, 648);
-    			add_location(p, file$3, 19, 8, 662);
-    			attr_dev(div1, "class", "col-md-6");
-    			add_location(div1, file$3, 16, 6, 603);
-    			attr_dev(div2, "class", "row section-body");
+    			set_style(div0, "display", "inline");
+    			add_location(div0, file$3, 11, 6, 379);
+    			add_location(br1, file$3, 19, 8, 651);
+    			add_location(br2, file$3, 20, 8, 665);
+    			add_location(br3, file$3, 34, 0, 1637);
+    			add_location(br4, file$3, 34, 4, 1641);
+    			add_location(br5, file$3, 39, 0, 1891);
+    			add_location(br6, file$3, 39, 4, 1895);
+    			add_location(br7, file$3, 47, 0, 2346);
+    			add_location(br8, file$3, 47, 4, 2350);
+    			set_style(div1, "display", "inline");
+    			set_style(div1, "line-height", "2");
+    			add_location(div1, file$3, 18, 6, 599);
+    			attr_dev(div2, "class", "section-body svelte-pwcej2");
     			add_location(div2, file$3, 9, 4, 345);
     			attr_dev(div3, "class", "container");
     			add_location(div3, file$3, 8, 2, 317);
     			attr_dev(section, "id", "about-us");
-    			attr_dev(section, "class", "section grey-bgcolor svelte-9c9d3t");
+    			attr_dev(section, "class", "section grey-bgcolor svelte-pwcej2");
     			add_location(section, file$3, 7, 0, 262);
     		},
     		l: function claim(nodes) {
@@ -1191,7 +1212,15 @@ var app = (function () {
     			append_dev(div1, t6);
     			append_dev(div1, br2);
     			append_dev(div1, t7);
-    			append_dev(div1, p);
+    			append_dev(div1, br3);
+    			append_dev(div1, br4);
+    			append_dev(div1, t8);
+    			append_dev(div1, br5);
+    			append_dev(div1, br6);
+    			append_dev(div1, t9);
+    			append_dev(div1, br7);
+    			append_dev(div1, br8);
+    			append_dev(div1, t10);
     		},
     		p: noop,
     		i: noop,
@@ -1556,7 +1585,6 @@ var app = (function () {
 
     const BANNER_DATA = {
       HEADING: "Go digital with nixalar",
-      DECRIPTION: "Board Certified Rheumatologist with local hospital privileges. Practicing in South Florida for over 20 years."
     };
 
     const SERVICE_DATA = {
@@ -1608,18 +1636,9 @@ var app = (function () {
     const ABOUT_DATA = {
       HEADING: "Aviva Miller",
       TITLE: "Why we're different",
-      IMAGE_URL: "images/avivamiller.jpg",
-      WHY_CHOOSE_US_LIST: [
-        "We provides Cost-Effective Digital Marketing than Others.",
-        "High customer statisfaction and experience.",
-        "Marketing efficiency and quick time to value.",
-        "Clear & transparent fee structure.",
-        "We provides Marketing automation which is an integral platform that ties all of your digital marketing together.",
-        "A strong desire to establish long lasting business partnerships.",
-        "Provide digital marketing to mobile consumer.",
-        "We provides wide range to services in reasonable prices"
-      ]
+      IMAGE_URL: "images/avivamiller.jpg"
     };
+
     const TESTIMONIAL_DATA = {
       HEADING: "Testimonials",
       TESTIMONIAL_LIST: [
