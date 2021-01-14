@@ -61,11 +61,11 @@ import { listen } from "svelte/internal";
   .card {
     margin: 5px;
     width: 30%;
-    border: 1px solid #0189B6;
+    border: 1px solid #35A178;
   }
 
   .card-header {
-    background-color: #0189B6;
+    background-color: #35A178;
     min-height: 80px;
     color: white;
     font-size: 20px;
