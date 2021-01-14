@@ -49,8 +49,8 @@ Soccer Closing Ceremony.
 Ms. Miller began her legal career on Wall Street as an Associate in the Structured
 Finance Group of Cadwalader, Wickersham & Taft.  She attended Cardozo School of
 Law, is admitted to practice in New York, and is a member of the Bar of the Supreme
-Court of the United States.  Ms. Miller has served on the boards of several non-
-profits and has been honored for her charitable work. Aviva speaks fluent Hebrew and
+Court of the United States.  Ms. Miller has served on the boards of several non-profits 
+and has been honored for her charitable work. Aviva speaks fluent Hebrew and
 lived in Israel for 3+ years.
 </div>
 </section>
