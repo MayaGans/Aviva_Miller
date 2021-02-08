@@ -60,7 +60,7 @@ const RECIPE_DATA = {
 const ABOUT_DATA = {
   HEADING: "Aviva Miller",
   TITLE: "Why we're different",
-  IMAGE_URL: "images/avivamiller.jpg"
+  IMAGE_URL: "images/avivamiller.png"
 };
 
 const TESTIMONIAL_DATA = {
